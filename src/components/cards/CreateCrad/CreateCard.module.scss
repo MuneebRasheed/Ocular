@@ -1,0 +1,25 @@
+.cardContainer {
+  background: #2b2b36;
+  opacity: 0.8;
+  border: 1px solid #171821;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+padding: 33px 47px 30px 37px ;
+  .cardIcon {
+    width: 54px;
+    height: 54px;
+    color: #f6f4f6;
+    opacity: 10 !important;
+    margin-bottom: 23px;
+  }
+
+  input {
+    text-align: center;
+    width: 202px;
+    height: 40px;
+  }
+}
+

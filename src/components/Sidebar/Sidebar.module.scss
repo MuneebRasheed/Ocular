@@ -1,0 +1,55 @@
+.sidebarContainer {
+  height: 100vh;
+  background: #21222d;
+  position: fixed;
+  padding-right: 15px;
+
+  .sidebarLogo {
+    width: 20%;
+    height: 56px;
+    margin: 2rem 0rem 5rem 1rem !important;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.itemContainer {
+  width: 123px;
+  height: 24px;
+  font-family: "roboto";
+  display: flex;
+  justify-content: flex-start;
+  gap: 18.45px;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 20px;
+  align-items: center;
+  margin-left: 37.4px;
+  // color: #F6F4F6;
+  opacity: 0.4;
+  margin-bottom: 45px;
+  transition: 0.3s;
+
+  a {
+    text-decoration: none;
+    color: #f6f4f6;
+  }
+
+  &:hover {
+    color: #f6f4f6;
+    opacity: 10;
+  }
+}
+
+.active .active {
+  color: #fff;
+  opacity: 1;
+}
+
+.active .itemContainer {
+  opacity: 1;
+}

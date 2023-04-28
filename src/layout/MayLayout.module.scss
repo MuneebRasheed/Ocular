@@ -1,0 +1,35 @@
+.container {
+  background-color: #171821;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 15px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media only screen and (max-width: 991px) {
+  .sideBar {
+    display: none;
+  }
+  .container {
+    width: fit-content;
+    background-color: #171821;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sideBar {
+    display: none;
+  }
+  .container {
+    width: fit-content;
+    background-color: #171821;
+    height: fit-content;
+  }
+  .header {
+    direction: rtl;
+  }
+}

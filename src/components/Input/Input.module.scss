@@ -1,0 +1,21 @@
+.inputContainer {
+  width: 100%;
+  height: 46px;
+  input {
+    background: #171821;
+    opacity: 0.8;
+    border: 1px solid #171821;
+    border-radius: 8px;
+    width: 202px;
+    height: 40px;
+    font-family: "roboto";
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #f6f4f6;
+    &:hover,
+    :active {
+      color: #f6f4f6;
+    }
+  }
+}

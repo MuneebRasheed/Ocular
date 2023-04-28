@@ -1,0 +1,31 @@
+.cont {
+  direction: rtl !important;
+}
+
+.contet {
+  width: 258px;
+  display: flex;
+  color: aliceblue;
+  gap: 12px;
+  direction: ltr;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  span {
+    font-family: "Varela";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+.dropdwon {
+  position: absolute;
+  top: 5%;
+  left: 92%;
+  border-radius: 10px;
+  font-family: "roboto";
+  font-weight: 500;
+  width: 100px;
+}

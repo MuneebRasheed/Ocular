@@ -1,0 +1,23 @@
+.sideLine {
+  width: 131.22px;
+  background: #2b2b36;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  position: relative;
+  top: -49%;
+  left: 77%;
+  z-index: 98;
+  transform: rotate(90deg);
+  gap: 6px;
+  .arrowIcon1 {
+    transform: rotate(90deg) !important;
+  }
+  .arrowIcon {
+    transform: rotate(266deg) !important;
+  }
+}
+.iconConatianer {
+}

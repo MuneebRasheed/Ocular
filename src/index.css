@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-paginate .MuiPagination-root {
+  background-color: #21222d;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.custom-paginate .MuiPagination-ul li button {
+  color: #fff;
+}
+
+.custom-paginate .Mui-selected {
+  background-color: #21222d !important;
+  border: 1px solid #fff;
+}
+
+li {
+  font-size: 5px !important;
+}

@@ -1,0 +1,128 @@
+.sectionHeading {
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-top: 54px;
+  padding-bottom: 31px;
+  width: max-content;
+}
+.active {
+  color: #ffffff;
+  opacity: 1;
+}
+.filter_field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.filter_field {
+    margin-bottom: 20px;
+}
+
+.filter_flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.filter__input {
+    width: 48%;
+    background: #2b2b36;
+    opacity: 0.8;
+    border: 1px solid #171821;
+    border-radius: 8px;
+    padding: 33px 47px 30px 37px;
+        font-family: "roboto";
+
+}
+
+.filter_field input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+        font-family: "roboto";
+
+}
+.form_group {
+  display: block;
+      font-family: "roboto";
+
+  margin-bottom: 15px;
+}
+
+.form_group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+      font-family: "roboto";
+
+}
+
+.form_group label {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+      font-family: "roboto";
+
+}
+.feature_ttl{
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.form_group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: #171821;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.form_group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+      font-family: "roboto";
+
+}
+
+.filter_btns{
+  margin-top: 70px;
+      text-align: center;
+
+}
+.filter_btns button{
+  width: 20%;
+      background: #2b2b36;
+    opacity: 0.8;
+    border: 1px solid #171821;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 18px;
+        font-family: "roboto";
+
+}

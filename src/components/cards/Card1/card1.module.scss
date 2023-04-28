@@ -1,0 +1,36 @@
+.cardContainer {
+  height: 85px;
+  background: #21222d;
+  font-family: "Roboto" !important;
+  font-size: 13px;
+  padding: 18px;
+  width: 170px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  span {
+    color: #ffffff;
+    display: flex;
+    // opacity: 10;
+  }
+}
+.cardItem {
+  background: #21222d;
+  border-radius: 27px;
+  width: 35px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid #21222d;
+  align-items: center;
+  display: flex;
+}
+
+.dropdown:focus {
+  outline: 0;
+  //  box-shadow:'none
+}
